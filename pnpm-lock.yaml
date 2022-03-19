@@ -11,13 +11,13 @@ specifiers:
   typescript: ^4.6.2
 
 dependencies:
+  '@faker-js/faker': 6.0.0
   argon2: 0.28.5
   mongodb: 4.4.1
   randomatic: 3.1.1
   source-map-support: 0.5.21
 
 devDependencies:
-  '@faker-js/faker': 6.0.0
   '@types/node': 16.11.26
   '@types/randomatic': 3.1.3
   typescript: 4.6.2
@@ -27,7 +27,7 @@ packages:
   /@faker-js/faker/6.0.0:
     resolution: {integrity: sha512-10zLCKhp3YEmBuko71ivcMoIZcCLXgQVck6aNswX+AWwaek/L8S3yz9i8m3tHigRkcF6F2vI+qtdtyySHK+bGA==}
     engines: {node: '>=14.0.0', npm: '>=7.0.0'}
-    dev: true
+    dev: false
 
   /@mapbox/node-pre-gyp/1.0.8:
     resolution: {integrity: sha512-CMGKi28CF+qlbXh26hDe6NxCd7amqeAzEqnS6IHeO6LoaKyM/n+Xw3HT1COdq8cuioOdlKdqn/hCmqPUOMOywg==}
